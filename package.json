@@ -1,0 +1,21 @@
+{
+    "name": "heart-theme",
+    "displayName": "heart-theme",
+    "description": "VSCode's theme of He4rt Devs community",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "heart-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/heart-theme-color-theme.json"
+            }
+        ]
+    }
+}
