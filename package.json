@@ -3,6 +3,7 @@
     "displayName": "heart-theme",
     "description": "VSCode's theme of He4rt Devs community",
     "version": "0.0.1",
+    "publisher": "brito",
     "engines": {
         "vscode": "^1.31.0"
     },
