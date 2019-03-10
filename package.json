@@ -7,9 +7,21 @@
     "engines": {
         "vscode": "^1.31.0"
     },
+    "maintainers": [
+        "Eduardo Brito <edu.santos.brito@gmail.com>"
+    ],
+    "icon": "heart-logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EduSantosBrito/heart-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/EduSantosBrito/heart-theme/issues"
+    },
     "categories": [
         "Themes"
     ],
+    "license": "LICENSE.txt",
     "contributes": {
         "themes": [
             {
@@ -18,5 +30,9 @@
                 "path": "./themes/heart-theme-color-theme.json"
             }
         ]
+    },
+    "galleryBanner": {
+        "color": "#212121",
+        "theme": "dark"
     }
 }
