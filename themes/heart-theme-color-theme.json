@@ -63,8 +63,8 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#9B59B6",
-				"fontStyle": ""
+				"foreground": "#C35590",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -73,7 +73,7 @@
 				"variable"
 			],
 			"settings": {
-				"foreground": "#C2A872",
+				"foreground": "#CD97B4",
 				"fontStyle": ""
 			}
 		},
@@ -93,7 +93,7 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#9B59B6",
+				"foreground": "#C35590",
 				"fontStyle": ""
 			}
 		},
@@ -113,7 +113,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#C2A872",
+				"foreground": "#F1FA8C",
 				"fontStyle": ""
 			}
 		},
@@ -125,7 +125,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#C2A872",
+				"foreground": "#CD97B4",
 				"fontStyle": ""
 			}
 		},
@@ -135,7 +135,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#33835F",
+				"foreground": "#62949A",
 				"fontStyle": ""
 			}
 		},
@@ -155,7 +155,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#50FA7B",
+				"foreground": "#58C355",
 				"fontStyle": "italic"
 			}
 		},
@@ -168,6 +168,60 @@
 				"foreground": "#B699C2",
 				"fontStyle": ""
 			}
-		}
+		},
+		{
+			"name": "Embbed Expression - Javascript",
+			"scope": [
+				"punctuation.section.embedded.begin.js",
+				"punctuation.section.embedded.end.js",
+				"punctuation.definition.block.js",
+				"punctuation.separator.key-value.js"
+			],
+			"settings": {
+				"foreground": "#F7E3FF",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Support functions - Javascript",
+			"scope": [
+				"support.function.js",
+				"support.function.console.js"
+			],
+			"settings": {
+				"foreground": "#62949A",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Object Member - Javascript",
+			"scope": [
+				"meta.object.member.js"
+			],
+			"settings": {
+				"foreground": "#98CD97",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Nome do atributo - CSS",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#C35590",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Nome das unidades - CSS",
+			"scope": [
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#CD97B4",
+				"fontStyle": ""
+			}
+		},
 	]
 }
