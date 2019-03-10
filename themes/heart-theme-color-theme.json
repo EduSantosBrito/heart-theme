@@ -70,7 +70,8 @@
 		{
 			"name": "Nome da variável - Javascript",
 			"scope": [
-				"variable"
+				"variable",
+				"support.variable.object.process.js"
 			],
 			"settings": {
 				"foreground": "#CD97B4",
@@ -90,7 +91,10 @@
 		{
 			"name": "Keywords (import, export, require) - Javascript",
 			"scope": [
-				"keyword"
+				"keyword",
+				"support.type.object.module.js",
+				"punctuation.definition.template-expression.begin.js",
+				"punctuation.definition.template-expression.end.js"
 			],
 			"settings": {
 				"foreground": "#C35590",
@@ -122,20 +126,11 @@
 			"scope": [
 				"entity.name.class",
 				"entity.name.type.class",
-				"entity.other.inherited-class"
+				"entity.other.inherited-class",
+				"entity.name.type.js"
 			],
 			"settings": {
 				"foreground": "#CD97B4",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Nome de métodos - Javascript",
-			"scope": [
-				"entity.name.function"
-			],
-			"settings": {
-				"foreground": "#62949A",
 				"fontStyle": ""
 			}
 		},
@@ -175,7 +170,10 @@
 				"punctuation.section.embedded.begin.js",
 				"punctuation.section.embedded.end.js",
 				"punctuation.definition.block.js",
-				"punctuation.separator.key-value.js"
+				"punctuation.separator.key-value.js",
+				"meta.arrow.js",
+				"meta.brace.round.js",
+				"support.class.builtin.js"
 			],
 			"settings": {
 				"foreground": "#F7E3FF",
@@ -183,23 +181,29 @@
 			}
 		},
 		{
-			"name": "Support functions - Javascript",
+			"name": "Object Member - Javascript",
 			"scope": [
-				"support.function.js",
-				"support.function.console.js"
+				"meta.object.member.js",
+				"variable.other.property.js",
+				"variable.other.object.property.js",
+				"support.variable.property.process.js",
+				"variable.other.constant.property.js"
 			],
 			"settings": {
-				"foreground": "#62949A",
+				"foreground": "#98CD97",
 				"fontStyle": ""
 			}
 		},
 		{
-			"name": "Object Member - Javascript",
+			"name": "Ponctuation Accessor - Javascript",
 			"scope": [
-				"meta.object.member.js"
+				"support.function.json.js",
+				"support.function.js",
+				"support.function.console.js",
+				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#98CD97",
+				"foreground": "#62949A",
 				"fontStyle": ""
 			}
 		},
