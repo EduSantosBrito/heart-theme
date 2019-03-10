@@ -127,7 +127,8 @@
 				"entity.name.class",
 				"entity.name.type.class",
 				"entity.other.inherited-class",
-				"entity.name.type.js"
+				"entity.name.type.js",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#CD97B4",
@@ -173,7 +174,8 @@
 				"punctuation.separator.key-value.js",
 				"meta.arrow.js",
 				"meta.brace.round.js",
-				"support.class.builtin.js"
+				"support.class.builtin.js",
+				"punctuation.definition.dictionary.begin.json"
 			],
 			"settings": {
 				"foreground": "#F7E3FF",
@@ -200,7 +202,8 @@
 				"support.function.json.js",
 				"support.function.js",
 				"support.function.console.js",
-				"entity.name.function"
+				"entity.name.function",
+				"constant.language.json"
 			],
 			"settings": {
 				"foreground": "#62949A",
